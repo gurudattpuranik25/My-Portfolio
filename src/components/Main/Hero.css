@@ -1,0 +1,78 @@
+.hero__section {
+  position: relative;
+  box-sizing: border-box;
+  width: 80%;
+  margin: auto;
+  padding: 4.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  color: #172b4d;
+}
+
+.hero__image {
+  width: 100%;
+  box-shadow: -8px 11px 26px -4px rgba(0, 0, 0, 0.38);
+}
+
+.self {
+  display: flex;
+  flex-direction: column;
+}
+
+.background__text {
+  font-size: 6rem;
+  font-weight: 900;
+  color: rgb(245, 245, 245);
+}
+
+.frontend {
+  position: relative;
+  top: -160px;
+}
+
+.developer {
+  position: relative;
+  top: 150px;
+}
+
+.self {
+  position: absolute;
+  top: 120px;
+}
+
+.salutation {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.self h1 {
+  font-size: 4.2rem;
+  font-weight: 700;
+  background: linear-gradient(to right, #172b4d, rgb(3, 251, 255));
+  background-clip: text;
+  color: transparent;
+}
+
+.self .self__description {
+  width: 80%;
+  text-align: justify;
+  line-height: 1.5rem;
+  letter-spacing: 0.05rem;
+}
+
+.self .scroll {
+  margin-top: 1.5rem;
+  color: tomato;
+  animation: arrowDown 2s infinite;
+}
+
+@keyframes arrowDown {
+  from {
+    transform: translateY(-10px);
+  }
+  to {
+    transform: translateY(10px);
+  }
+}
