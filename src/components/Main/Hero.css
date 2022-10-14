@@ -1,78 +1,108 @@
-.hero__section {
-  position: relative;
-  box-sizing: border-box;
-  width: 80%;
-  margin: auto;
-  padding: 4.5rem 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  color: #172b4d;
+.hero::before {
+  position: absolute;
+  content: "";
+  background-image: url("https://wallpaperaccess.com/full/2049166.png");
+  width: 100%;
+  min-height: 100vh;
+  opacity: 0.1;
+  z-index: -10;
 }
 
-.hero__image {
+.hero__section {
+  width: 75%;
+  margin: auto;
+  padding-top: 12.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+
+.hero__image img {
   width: 100%;
   box-shadow: -8px 11px 26px -4px rgba(0, 0, 0, 0.38);
+  border-radius: 10px;
 }
 
-.self {
-  display: flex;
-  flex-direction: column;
+.hero__details .background__text {
+  font-size: 6.5rem;
+  font-weight: 800;
+  color: rgb(234, 234, 234);
 }
 
-.background__text {
-  font-size: 6rem;
-  font-weight: 900;
-  color: rgb(245, 245, 245);
-}
-
-.frontend {
+.hero__details .background__text .frontend {
   position: relative;
-  top: -160px;
+  bottom: 7rem;
+  animation: transitionIn 2s;
 }
 
-.developer {
+.hero__details .background__text .developer {
   position: relative;
-  top: 150px;
+  top: 12rem;
+  animation: transitionIn 2s;
 }
 
-.self {
-  position: absolute;
-  top: 120px;
+.hero__details .self {
+  position: relative;
+  bottom: 15rem;
 }
 
-.salutation {
+.self .salutation {
   font-size: 1.8rem;
+  color: #172b4d;
   font-weight: 500;
 }
 
 .self h1 {
-  font-size: 4.2rem;
-  font-weight: 700;
+  font-size: 4rem;
   background: linear-gradient(to right, #172b4d, rgb(3, 251, 255));
   background-clip: text;
   color: transparent;
 }
 
 .self .self__description {
-  width: 80%;
   text-align: justify;
-  line-height: 1.5rem;
-  letter-spacing: 0.05rem;
+  width: 85%;
+  line-height: 1.8rem;
+  font-size: 1.2rem;
+  color: #172b4d;
 }
 
-.self .scroll {
+.scroll {
   margin-top: 1.5rem;
   color: tomato;
-  animation: arrowDown 2s infinite;
+  font-weight: 500;
+  animation: scroll__animation 1.5s infinite;
 }
 
-@keyframes arrowDown {
+@keyframes scroll__animation {
   from {
     transform: translateY(-10px);
   }
   to {
     transform: translateY(10px);
+  }
+}
+
+@keyframes transitionIn {
+  from {
+    color: rgb(0, 0, 0);
+
+    opacity: 0;
+
+    transform: translateX(-500px);
+  }
+  to {
+    color: rgb(234, 234, 234);
+    opacity: 1;
+
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 1150px) {
+  .hero__section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 8rem;
   }
 }

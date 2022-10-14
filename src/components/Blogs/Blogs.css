@@ -1,0 +1,85 @@
+.blogs {
+  padding-top: 4rem;
+}
+
+.blogs::before {
+  position: absolute;
+  content: "";
+  background-image: url("https://wallpaperaccess.com/full/2049166.png");
+  width: 100%;
+  min-height: 90vh;
+  opacity: 0.1;
+  z-index: -10;
+}
+
+.blog__section::-webkit-scrollbar {
+  width: 0.7rem;
+}
+.blog__section::-webkit-scrollbar-track {
+  background-color: #eff4ff;
+  border-radius: 10px;
+}
+.blog__section::-webkit-scrollbar-thumb {
+  background-color: #172b4d;
+  border-radius: 10px;
+}
+
+.blog__section {
+  width: 75%;
+  height: 80vh;
+  background-color: #eff4ff;
+  margin: 2.8rem auto 0 auto;
+  border-radius: 10px;
+  padding: 2rem 3rem;
+  overflow: auto;
+}
+
+.blog__heading {
+  font-size: 3.5rem;
+  margin-bottom: 3rem;
+  font-weight: 700;
+  text-align: center;
+  color: #172b4d;
+}
+
+.blog__list {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.blog__description {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  color: #172b4d;
+}
+
+.blog__details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.blog__details p {
+  text-align: justify;
+}
+
+.blog__list img {
+  width: 50%;
+  border: 2px solid #172b4d;
+  border-radius: 10px;
+}
+
+.redirect__btn {
+  display: flex;
+  gap: 1rem;
+}
+
+.redirect__btn .btn {
+  text-decoration: none;
+  background-color: #172b4d;
+  color: #eff4ff;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+}
