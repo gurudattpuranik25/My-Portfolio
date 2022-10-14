@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+
+.salutation,
+.self h1 {
+  font-family: "Secular One", sans-serif;
+}
+
 .hero::before {
   position: absolute;
   content: "";
@@ -194,7 +201,7 @@
     gap: 1rem;
   }
   .hero__details .background__text .developer {
-    top: 14rem;
+    top: 13rem;
   }
   .scroll {
     margin-top: 8rem;

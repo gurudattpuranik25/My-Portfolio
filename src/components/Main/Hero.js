@@ -26,7 +26,7 @@ function Hero() {
             <span className="developer">Developer</span>{" "}
           </p>
           <div className="self">
-            <p className="salutation">Hello, it's me</p>
+            <p className="salutation">Hello, it's me 👋</p>
             <h1>Gurudatt Puranik</h1>
             <p className="self__description">
               An enthusiastic & self-motivated web developer wanting to make an
