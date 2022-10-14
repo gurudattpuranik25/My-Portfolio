@@ -49,7 +49,6 @@
 }
 
 .qualification p {
-  font-style: italic;
   padding: 0.1rem 0;
 }
 
@@ -71,14 +70,16 @@
     display: flex;
     flex-direction: column;
   }
-  .education__section .education__me {
-    margin-top: 1rem;
-    font-size: 1rem;
-  }
   .education {
-    padding: 2rem 0;
+    margin-bottom: -10rem;
   }
   .education__title {
-    margin: auto;
+    margin: -3rem auto -1rem auto;
+  }
+  .qualification h2 {
+    font-size: 1.2rem;
+  }
+  .qualification span {
+    font-size: 1.2rem;
   }
 }
