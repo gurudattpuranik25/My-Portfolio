@@ -76,8 +76,13 @@
   .education__title {
     margin: -3rem auto -1rem auto;
   }
+
   .qualification h2 {
     font-size: 1.2rem;
+  }
+  .qualification p {
+    font-size: 1rem;
+    line-height: 1.8rem;
   }
   .qualification span {
     font-size: 1.2rem;

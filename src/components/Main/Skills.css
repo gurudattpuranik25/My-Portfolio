@@ -79,3 +79,39 @@
 .go__to__links:hover {
   background-color: #203a65;
 }
+
+@media (max-width: 1250px) {
+  .skill__section {
+    width: 85%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .skills,
+  .skill__section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skill__title {
+    margin: -3rem 0 -1rem 0;
+    text-align: center;
+  }
+  .skill__grid {
+    row-gap: 1.5rem;
+  }
+}
+
+@media (max-width: 430px) {
+  .skill__logo img {
+    width: 5rem;
+    height: 5rem;
+  }
+  .nav__btn {
+    gap: 1rem;
+  }
+  .go__to__links {
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
+  }
+}

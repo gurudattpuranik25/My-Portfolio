@@ -57,7 +57,7 @@ function Education() {
             </div>
             <div>
               <h2>
-                BE, Mechanical Engineering - <span>81.5%</span>{" "}
+                BE, Mechanical - <span>81.5%</span>{" "}
               </h2>
               <p>Siddaganga Institute of Technology - Tumkur, Karnataka</p>
               <p>2017-2021</p>
