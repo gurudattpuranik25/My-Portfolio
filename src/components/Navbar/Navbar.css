@@ -78,6 +78,9 @@ nav {
 }
 
 @media (max-width: 815px) {
+  nav {
+    padding: 0.5rem 2rem;
+  }
   .nav__links {
     display: none;
   }
