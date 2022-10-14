@@ -193,6 +193,12 @@
     flex-direction: column;
     gap: 1rem;
   }
+  .hero__details .background__text .developer {
+    top: 14rem;
+  }
+  .scroll {
+    margin-top: 8rem;
+  }
 }
 
 @media (max-width: 460px) {
