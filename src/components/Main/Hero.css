@@ -26,7 +26,7 @@
 .hero__details .background__text {
   font-size: 6.5rem;
   font-weight: 800;
-  color: rgb(234, 234, 234);
+  color: rgb(243, 243, 243);
 }
 
 .hero__details .background__text .frontend {
@@ -103,6 +103,114 @@
   .hero__section {
     display: flex;
     flex-direction: column;
-    padding-top: 8rem;
+    padding-top: 7rem;
+    transition: all 0.2s ease-in-out;
+  }
+  .hero__details,
+  .self {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+  }
+  .hero__details .background__text .frontend {
+    position: relative;
+    bottom: 2rem;
+    animation: transitionIn 2s;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .hero__details .background__text .developer {
+    position: relative;
+    top: 5rem;
+    animation: transitionIn 2s;
+    transition: all 0.2s ease-in-out;
+  }
+}
+
+@media (max-width: 700px) {
+  .self h1 {
+    font-size: 3.5rem;
+    transition: all 0.2s ease-in-out;
+  }
+  .self .self__description {
+    font-size: 1rem;
+    transition: all 0.2s ease-in-out;
+  }
+  .hero__details .background__text {
+    font-size: 6rem;
+    transition: all 0.2s ease-in-out;
+  }
+  .self .salutation {
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in-out;
+  }
+}
+
+@media (max-width: 610px) {
+  .hero__details {
+    padding-top: 2rem;
+  }
+  .self h1 {
+    font-size: 3rem;
+    transition: all 0.2s ease-in-out;
+  }
+  .hero__details .background__text .frontend {
+    bottom: 4rem;
+  }
+  .hero__details .background__text .developer {
+    top: 2rem;
+  }
+  .self .self__description {
+    width: 90%;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    transition: all 0.2s ease-in-out;
+  }
+  .hero__details .background__text {
+    font-size: 5rem;
+    transition: all 0.2s ease-in-out;
+  }
+}
+
+@media (max-width: 540px) {
+  .self h1 {
+    font-size: 2.5rem;
+    transition: all 0.2s ease-in-out;
+  }
+  .self .self__description {
+    font-size: 0.9rem;
+    transition: all 0.2s ease-in-out;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero__details {
+    padding-top: 4rem;
+  }
+  .self h1 {
+    font-size: 2.5rem;
+    transition: all 0.2s ease-in-out;
+  }
+  .self .self__description {
+    font-size: 0.9rem;
+    transition: all 0.2s ease-in-out;
+  }
+  .hero__details .background__text {
+    font-size: 3.5rem;
+  }
+  .hero__details .background__text .frontend {
+    position: relative;
+    bottom: 2rem;
+    animation: transitionIn 2s;
+  }
+
+  .hero__details .background__text .developer {
+    position: relative;
+    top: -2rem;
+    animation: transitionIn 2s;
   }
 }
