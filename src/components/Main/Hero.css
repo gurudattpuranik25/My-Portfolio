@@ -195,7 +195,7 @@
     transition: all 0.2s ease-in-out;
   }
   .self {
-    margin-top: 3rem;
+    margin-top: 3.5rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
