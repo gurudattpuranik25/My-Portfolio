@@ -163,12 +163,18 @@
     font-size: 1rem;
     transition: all 0.2s ease-in-out;
   }
+  .hero {
+    margin-bottom: -12rem;
+  }
   .hero__details .background__text {
     font-size: 6rem;
     transition: all 0.2s ease-in-out;
   }
+  .hero__details .background__text .developer {
+    top: 10rem;
+  }
   .scroll {
-    margin-top: 0.5rem;
+    margin-top: 10rem;
   }
 }
 
@@ -187,10 +193,6 @@
     flex-direction: column;
     gap: 1rem;
   }
-
-  .scroll {
-    margin-top: 1.5rem;
-  }
 }
 
 @media (max-width: 460px) {
@@ -201,16 +203,7 @@
     font-size: 2.5rem;
     transition: all 0.2s ease-in-out;
   }
-  .hero__details .background__text .developer {
-    top: 18rem;
-  }
   .hero__details .background__text {
     font-size: 4.5rem;
   }
-  /* .hero__details .background__text .frontend {
-    bottom: 5rem;
-  } */
-  /* .hero__details .background__text .developer {
-    top: 14rem;
-  } */
 }

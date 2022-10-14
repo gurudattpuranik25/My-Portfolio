@@ -110,4 +110,8 @@
   .nav__btn {
     gap: 1rem;
   }
+  .go__to__links {
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+  }
 }
