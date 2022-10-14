@@ -36,3 +36,9 @@
   color: #ea4335;
   cursor: pointer;
 }
+
+@media (max-width: 815px) {
+  .social {
+    display: none;
+  }
+}

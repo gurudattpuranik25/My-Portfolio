@@ -43,3 +43,34 @@
   display: inline-block;
   margin-top: 1rem;
 }
+
+@media (max-width: 1250px) {
+  .about__section {
+    width: 90%;
+  }
+  .about,
+  .about__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+  }
+
+  .about__section .about__me {
+    margin-top: 0rem;
+    font-size: 1rem;
+  }
+
+  .about__title {
+    margin: auto;
+    padding-top: 18rem;
+  }
+}
+
+/* @media (max-width: 1000px) {
+  .about__section {
+    display: flex;
+    flex-direction: column;
+  }
+} */

@@ -9,7 +9,7 @@ function About() {
       // data-aos="fade-up" data-aos-duration="2000"
       className="about"
     >
-      <div className="about__title">About Me.</div>
+      <p className="about__title">About Me.</p>
       <div className="about__section">
         <div
           className="about__me"
