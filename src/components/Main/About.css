@@ -46,31 +46,42 @@
 
 @media (max-width: 1250px) {
   .about__section {
-    width: 90%;
+    width: 85%;
   }
-  .about,
+  /* .about,
   .about__section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-top: 1rem;
-  }
+  } */
 
-  .about__section .about__me {
+  /* .about__section .about__me {
     margin-top: 0rem;
     font-size: 1rem;
-  }
+  } */
 
-  .about__title {
+  /* .about__title {
     margin: auto;
     padding-top: 18rem;
-  }
+  } */
 }
 
-/* @media (max-width: 1000px) {
+@media (max-width: 1050px) {
+  .about,
   .about__section {
     display: flex;
     flex-direction: column;
   }
-} */
+  .about__section .about__me {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  .about {
+    padding: 2rem 0;
+  }
+  .about__title {
+    margin: auto;
+  }
+}

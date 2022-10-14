@@ -83,3 +83,46 @@
   padding: 0.5rem 2rem;
   border-radius: 5px;
 }
+
+@media (max-width: 1200px) {
+  .blog__description {
+    display: flex;
+    flex-direction: column;
+  }
+  .blog__description img {
+    width: 100%;
+  }
+  .blogs {
+    padding-top: 3.5rem;
+  }
+  .blog__heading {
+    margin-bottom: 1.5rem;
+    margin-top: -1rem;
+  }
+  .blog__section {
+    padding: 2rem 1.5rem;
+  }
+}
+@media (max-width: 815px) {
+  .blog__description {
+    gap: 1rem;
+  }
+  .blog__section {
+    width: 90%;
+  }
+}
+
+@media (max-width: 550px) {
+  .blog__details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .blog__details h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .blog__details p {
+    font-size: 0.9rem;
+  }
+}

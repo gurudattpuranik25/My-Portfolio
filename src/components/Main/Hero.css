@@ -103,11 +103,10 @@
   .hero__section {
     display: flex;
     flex-direction: column;
-    padding-top: 8rem;
+    padding-top: 6rem;
     transition: all 0.2s ease-in-out;
   }
-  .hero__details,
-  .self {
+  .hero__details {
     width: 100%;
     padding-top: 3rem;
     display: flex;
@@ -145,10 +144,10 @@
     font-size: 7rem;
   }
   .hero__details .background__text .frontend {
-    bottom: 3rem;
+    bottom: 5rem;
   }
   .hero__details .background__text .developer {
-    top: 14rem;
+    top: 10rem;
   }
 }
 
