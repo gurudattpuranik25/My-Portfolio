@@ -131,11 +131,11 @@
 
 @media (max-width: 815px) {
   .hero__section {
-    width: 90%;
+    width: 85%;
   }
   .hero__details {
     width: 100%;
-    margin-top: -1rem;
+    margin-top: 2rem;
   }
   .self .self__description {
     width: 100%;
@@ -147,7 +147,7 @@
     bottom: 5rem;
   }
   .hero__details .background__text .developer {
-    top: 10rem;
+    top: 12rem;
   }
 }
 
@@ -188,42 +188,22 @@
     margin-top: 1.5rem;
   }
 }
-/*
-@media (max-width: 540px) {
-  .self h1 {
-    font-size: 2.5rem;
-    transition: all 0.2s ease-in-out;
-  }
-  .self .self__description {
-    font-size: 0.9rem;
-    transition: all 0.2s ease-in-out;
-  }
-}
 
-@media (max-width: 500px) {
-  .hero__details {
-    padding-top: 4rem;
+@media (max-width: 460px) {
+  .hero__details .self {
+    padding-top: 2rem;
   }
   .self h1 {
     font-size: 2.5rem;
-    transition: all 0.2s ease-in-out;
-  }
-  .self .self__description {
-    font-size: 0.9rem;
     transition: all 0.2s ease-in-out;
   }
   .hero__details .background__text {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
   }
-  .hero__details .background__text .frontend {
-    position: relative;
-    bottom: 2rem;
-    animation: transitionIn 2s;
-  }
-
+  /* .hero__details .background__text .frontend {
+    bottom: 5rem;
+  } */
   .hero__details .background__text .developer {
-    position: relative;
-    top: -2rem;
-    animation: transitionIn 2s;
+    top: 14rem;
   }
-} */
+}
