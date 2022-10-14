@@ -58,3 +58,27 @@
   font-size: 1.5rem;
   font-weight: 700;
 }
+
+@media (max-width: 1250px) {
+  .education__section {
+    width: 85%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .education,
+  .education__section {
+    display: flex;
+    flex-direction: column;
+  }
+  .education__section .education__me {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  .education {
+    padding: 2rem 0;
+  }
+  .education__title {
+    margin: auto;
+  }
+}
