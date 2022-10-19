@@ -97,6 +97,10 @@
 }
 
 @media (max-width: 1050px) {
+  .skill {
+    padding-bottom: 2rem;
+  }
+
   .skills,
   .skill__section {
     display: flex;
