@@ -5,16 +5,13 @@ import "aos/dist/aos.css";
 
 function About() {
   return (
-    <div
-      // data-aos="fade-up" data-aos-duration="2000"
-      className="about"
-    >
+    <div data-aos="fade-up" data-aos-duration="2000" className="about">
       <p className="about__title">About Me.</p>
       <div className="about__section">
         <div
           className="about__me"
-          // data-aos="fade-down"
-          // data-aos-duration="2000"
+          data-aos="fade-down"
+          data-aos-duration="2000"
         >
           I am a 23-year-old <strong>blogger</strong>,
           <strong> stock-market trader</strong> and aspiring{" "}
@@ -28,9 +25,7 @@ function About() {
           <br />
           <small>Talk to me & you will know more 📞</small>
         </div>
-        <div
-        // data-aos="fade-up" data-aos-duration="2000"
-        >
+        <div data-aos="fade-up" data-aos-duration="2000">
           <img src={about} alt="" />
         </div>
       </div>

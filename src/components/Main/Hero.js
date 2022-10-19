@@ -12,8 +12,8 @@ function Hero() {
   return (
     <div className="hero">
       <div
-        // data-aos="zoom-in"
-        // data-aos-duration="2000"
+        data-aos="zoom-in"
+        data-aos-duration="2000"
         className="hero__section"
       >
         <div className="hero__image">

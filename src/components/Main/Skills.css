@@ -97,7 +97,7 @@
 }
 
 @media (max-width: 1050px) {
-  .skill {
+  .nav__btn {
     padding-bottom: 2rem;
   }
 
