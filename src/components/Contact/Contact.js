@@ -17,7 +17,7 @@ function Contact() {
       )
       .then(
         (result) => {
-          alert("Thank you for your messaage.");
+          alert("Thank you for your message.");
         },
         (error) => {
           console.log(error.text);
