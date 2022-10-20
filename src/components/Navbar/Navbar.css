@@ -68,6 +68,38 @@ nav {
   font-weight: 700;
 }
 
+.close__btn {
+  padding: 1rem 0.5rem;
+  color: #172b4d;
+}
+
+.responsive__links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 0 5rem 3rem 5rem;
+}
+
+.responsive__navLinks {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #172b4d;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: font-weight 0.2s ease;
+}
+
+.dialog__socialSection {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  padding: 1.2rem;
+  background-color: #172b4d;
+}
+
 @keyframes logoRotate {
   from {
     transform: rotate(0deg);
