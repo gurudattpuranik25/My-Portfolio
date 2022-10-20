@@ -19,6 +19,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
+  padding-bottom: 1rem;
 }
 
 .about__section img {
@@ -50,10 +51,12 @@
 
 .contact__link {
   text-decoration: none;
-  background-color: #172b4d;
-  color: #eff4ff;
-  padding: 0.5rem 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  background: #172b4d;
+  padding: 0.5rem 2rem;
   border-radius: 5px;
+  color: #eff4ff;
 }
 
 .contact__link:hover {
