@@ -19,7 +19,6 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
-  padding-bottom: 1rem;
 }
 
 .about__section img {
@@ -74,6 +73,7 @@
   .about__section {
     display: flex;
     flex-direction: column;
+    padding-bottom: 1.5rem;
   }
   .about__section .about__me {
     margin-top: 1rem;
