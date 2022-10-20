@@ -64,6 +64,10 @@ nav {
   transition: font-weight 0.2s ease;
 }
 
+.contact__link {
+  color: #eff4ff;
+}
+
 .links:hover {
   font-weight: 700;
 }
@@ -78,7 +82,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2.5rem;
+  gap: 1.5rem;
   padding: 0 5rem 3rem 5rem;
 }
 
@@ -109,7 +113,7 @@ nav {
   }
 }
 
-@media (max-width: 815px) {
+@media (max-width: 960px) {
   nav {
     padding: 0.5rem 1rem;
   }

@@ -93,6 +93,9 @@ function Navbar() {
             <i className="fa-brands fa-blogger"></i>
             Blogs
           </Link>
+          <Link className="links contact__link" to="/contact">
+            Contact &nbsp; 📞
+          </Link>
         </div>
         <p className="menu__btn">
           <div>
@@ -139,6 +142,14 @@ function Navbar() {
                 >
                   <i className="fa-brands fa-blogger"></i>
                   Blogs
+                </Link>
+                <Link
+                  className="responsive__navLinks "
+                  onClick={handleClose}
+                  to="/contact"
+                >
+                  <i class="fa-solid fa-phone"></i>
+                  Contact
                 </Link>
               </div>
               {/* <div className="dialog__social"> */}

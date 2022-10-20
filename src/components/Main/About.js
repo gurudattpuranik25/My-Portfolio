@@ -2,6 +2,7 @@ import React from "react";
 import "./About.css";
 import about from "../../images/about.JPG";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -21,12 +22,17 @@ function About() {
           <strong>full-stack web developer</strong> . I love attractive designs,
           narrations and have developed interest in designing{" "}
           <strong>responsive web applications</strong> that make an impact. I am
-          passionate, self-motivated and like to teach myself to get better each
-          day at my skills & qualities and would like to be{" "}
-          <strong>driven by opprotunities & challenges</strong> . <br /> I am a
-          fast learner and I have the natural ability to adapt to situations.{" "}
-          <br />
-          <small>Talk to me & you will know more 📞</small>
+          passionate, self-motivated, and always open to collaborate on exciting
+          projects. I like to be{" "}
+          <strong>driven by opprotunities & challenges</strong> and have the
+          natural ability to adapt to situations.
+          <br />I love working on new & innovative ideas & if you already have
+          one in your mind, let's talk and we can build something unique.
+          <p className="contact__btn">
+            <Link className="contact__link" to="/contact">
+              Contact &nbsp; 📞
+            </Link>
+          </p>
         </div>
         <div
         // data-aos="fade-up" data-aos-duration="2000"

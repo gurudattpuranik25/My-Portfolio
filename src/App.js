@@ -5,6 +5,7 @@ import "./App.css";
 import Projects from "./components/Projects/Projects";
 import Blogs from "./components/Blogs/Blogs";
 import Social from "./components/Social/Social";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -14,12 +15,9 @@ function App() {
       <div className="routes">
         <Routes>
           <Route path="/" element={<Main />} />
-        </Routes>
-        <Routes>
           <Route path="/projects" element={<Projects />} />
-        </Routes>
-        <Routes>
           <Route path="/blogs" element={<Blogs />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </div>

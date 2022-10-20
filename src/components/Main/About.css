@@ -44,6 +44,22 @@
   margin-top: 1rem;
 }
 
+.contact__btn {
+  margin-top: 1.5rem;
+}
+
+.contact__link {
+  text-decoration: none;
+  background-color: #172b4d;
+  color: #eff4ff;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+}
+
+.contact__link:hover {
+  background-color: #203a65;
+}
+
 @media (max-width: 1250px) {
   .about__section {
     width: 85%;

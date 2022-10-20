@@ -13,11 +13,7 @@ import { IoLogoCss3 } from "react-icons/io";
 function Projects() {
   return (
     <div className="projects">
-      <div
-        // data-aos="zoom-in"
-        // data-aos-duration="2000"
-        className="project__section"
-      >
+      <div className="project__section">
         <h1 className="project__heading">Projects.</h1>
 
         <div className="project__list">
