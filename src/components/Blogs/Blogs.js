@@ -3,6 +3,7 @@ import "./Blogs.css";
 import nodejs from "../../images/nodejs.JPG";
 import propDrilling from "../../images/propDrilling.png";
 import api from "../../images/api.jpg";
+import promises from "../../images/promises.JPG";
 
 function Blogs() {
   return (
@@ -72,6 +73,26 @@ function Blogs() {
                 <a
                   className="btn"
                   href="https://gurudattpuranik.hashnode.dev/prop-drilling-state-management-usecontext"
+                >
+                  Read more
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="blog__description">
+            <img src={promises} alt="" />
+
+            <div className="blog__details">
+              <h1>Learn PROMISES in 4 minutes.</h1>
+              <p>
+                By definition, Promises are objects that represent the eventual
+                completion (or failure) of an asynchronous operation and its
+                resulting value. Didn't get the meaning? read through...
+              </p>
+              <div className="redirect__btn">
+                <a
+                  className="btn"
+                  href="https://gurudattpuranik.hashnode.dev/learn-promises-in-4-minutes"
                 >
                   Read more
                 </a>
