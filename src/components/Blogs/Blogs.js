@@ -4,6 +4,8 @@ import nodejs from "../../images/nodejs.JPG";
 import propDrilling from "../../images/propDrilling.png";
 import api from "../../images/api.jpg";
 import promises from "../../images/promises.JPG";
+import jwt from "../../images/jwt.JPG";
+import interview_pic from "../../images/interview_pic.JPG";
 
 function Blogs() {
   return (
@@ -93,6 +95,48 @@ function Blogs() {
                 <a
                   className="btn"
                   href="https://gurudattpuranik.hashnode.dev/learn-promises-in-4-minutes"
+                >
+                  Read more
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="blog__description">
+            <img src={jwt} alt="" />
+
+            <div className="blog__details">
+              <h1>What is a JSON web token (JWT) & why do we use it?</h1>
+              <p>
+                Are you also the one among many who think authentication and
+                authorization are the same? It's a brand NO...
+              </p>
+              <div className="redirect__btn">
+                <a
+                  className="btn"
+                  href="https://gurudattpuranik.hashnode.dev/what-is-a-json-web-token-jwt-why-do-we-use-it"
+                >
+                  Read more
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="blog__description">
+            <img src={interview_pic} alt="" />
+
+            <div className="blog__details">
+              <h1>
+                10 JavaScript & React questions you might encounter in your next
+                front-end interview
+              </h1>
+              <p>
+                Closures : A closure in JavaScript is a combination of a
+                function bundled with its lexical environment. Let’s understand
+                with an example...
+              </p>
+              <div className="redirect__btn">
+                <a
+                  className="btn"
+                  href="https://gurudattpuranik.hashnode.dev/10-javascript-react-questions-you-might-encounter-in-your-next-front-end-interview"
                 >
                   Read more
                 </a>

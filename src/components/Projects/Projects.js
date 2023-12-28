@@ -5,10 +5,14 @@ import blog from "../../images/blog.JPG";
 import cornerCart from "../../images/cornerCart.JPG";
 import todo from "../../images/todo.JPG";
 import weather from "../../images/weather.JPG";
+import chatapp from "../../images/chatapp.png";
 import { SiFirebase } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { IoLogoCss3 } from "react-icons/io";
+import { FaNodeJs } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
 
 function Projects() {
   return (
@@ -123,6 +127,39 @@ function Projects() {
                 <a
                   className="btn"
                   href="https://github.com/gurudattpuranik25/corner-cart"
+                >
+                  Github
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="project__description">
+            <img src={chatapp} alt="" />
+            <div className="project__details">
+              <h1>Chat Application</h1>
+              <p>
+                An efficient and scalable backend service built using Node.js
+                and MongoDB to power a real-time Chat Application. This service
+                manages authentication, and authorization and provides seamless
+                interaction. MongoDB serves as the persistent data storage,
+                enabling secure and flexible data management for messages and
+                user profiles.
+              </p>
+              <div className="tech__stack">
+                <span>
+                  <FaNodeJs />
+                </span>
+                <span>
+                  <SiExpress />
+                </span>
+                <span>
+                  <SiMongodb />
+                </span>
+              </div>
+              <div className="redirect__btn">
+                <a
+                  className="btn"
+                  href="https://github.com/gurudattpuranik25/chat-application"
                 >
                   Github
                 </a>
